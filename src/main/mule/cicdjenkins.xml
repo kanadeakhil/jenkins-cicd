@@ -6,7 +6,7 @@
 	<flow name="cicdjenkinsFlow" doc:id="9da8c774-2abc-4cb9-bd76-42defd87a71d" >
 		<scheduler doc:name="Scheduler" doc:id="0380bfcc-d806-4e7e-81bb-879c94c9b25c" >
 			<scheduling-strategy >
-				<fixed-frequency />
+				<fixed-frequency frequency="1" timeUnit="MINUTES"/>
 			</scheduling-strategy>
 		</scheduler>
 		<logger level="INFO" doc:name="Logger" doc:id="c7b0ef52-cf1b-40e7-ae9d-95cb144cbe4b" message="#['Hello Brother!!!']"/>
