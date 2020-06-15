@@ -28,6 +28,15 @@
 				<extensions>true</extensions>
 				<configuration>
 				</configuration>
+				<cloudHubDeployment>
+					<username>kakhiltest</username>
+					<password>Apisero@123</password>
+					<environment>Sandbox</environment>
+					<workers>1</workers>
+					<workerType>Micro</workerType>
+					<applicationName>CICD-Jenkins-Test</applicationName>
+					<muleVersion>4.2.2</muleVersion>
+				</cloudHubDeployment>
 			</plugin>
 		</plugins>
 	</build>
